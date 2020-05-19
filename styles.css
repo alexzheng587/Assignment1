@@ -21,19 +21,25 @@ body {
     justify-content: center;
 }
 
-#list {
-    border-style: solid;
+#home {
+    float: left;
+}
+
+#about {
+    float: left;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 li {
-    float: left;
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100vw;
 }
 
 li a {
@@ -50,7 +56,7 @@ li a:hover {
 }
 
 button {
-    background-color: #af2b2d; /* Green */
+    background-color: #af3f31; /* Green */
     border: none;
     color: white;
     text-align: center;

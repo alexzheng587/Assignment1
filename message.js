@@ -1,4 +1,4 @@
-const obj = ["Hello","Welcome"];
+const obj = ["Hello, this is a pre-filled message","Welcome to my website!"];
 
 for (let prop in obj) {
     addMessage(obj[prop]);
