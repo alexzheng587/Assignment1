@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+    <ul id="top_bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <h1>Welcome to Message Boards</h1>
+    <div class="flex-container">
+        <h3>Message List:</h3>
+        <textarea id="text"></textarea>
+        <br/>
+        <button id="submit" onclick="submit();">Submit</button>
+        <button id="clear" onclick="clearText();">Clear</button>
+        <br/>
+        <button id="clearList" onclick="clearList();">Clear List</button>
+        <div id="list"></div>
+    </div>
+    <script src="message.js"></script>
+</body>
+</html>
